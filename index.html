@@ -4,9 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Facebook</title>
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="./main.css" />
   </head>
-  <body>
-    this is Facebook clone
+  <body class="bg-gray-100">
+    <div class="main flex justify-center items-center h-screen">
+      <div class="container w-4/5 h-1/2 flex">
+        <div class="left w-3/5 pr-20">
+          <div class="logo w-[320px] h-auto">
+            <img src="./img/logo.svg" alt="logo" class="w-full" />
+          </div>
+          <h2 class="ml-9 text-[1.7rem] font-arial">
+            Facebook helps you connect and share with the people in your life.
+          </h2>
+        </div>
+        <div class="right">
+          <div class="box rounded-lg p-4 pb-0 w-96 flex flex-col bg-white">
+            <input
+              class="p-4 mb-3 border border-1 border-gray-300 rounded-lg"
+              type="text"
+              placeholder="Email address or phone number"
+              name=""
+              id=""
+            />
+            <input
+              class="p-4 mb-4 border border-1 border-gray-300 rounded-lg"
+              type="password"
+              placeholder="Password"
+              name=""
+              id=""
+            />
+            <button
+              class="p-[0.7rem] rounded-lg bg-loginBtn text-white font-arial font-bold text-xl"
+            >
+              Log In
+            </button>
+            <a
+              href="#"
+              class="flex text-blue-600 text-sm justify-center my-3 hover:underline"
+              >Forgotten password?</a
+            >
+            <hr class="my-1" />
+            <button
+              class="my-6 py-3 px-4 rounded-lg bg-createBtn text-white text-lg font-arial font-bold w-fit mx-auto"
+            >
+              Creat New Account
+            </button>
+          </div>
+          <p class="text-sm text-center font-arial mt-4">
+            <a href="#" class="font-bold hover:underline">Create a Page</a> for
+            a celebrity, brand or business.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

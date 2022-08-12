@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.font-arial{
+    font-family: Arial, sans-serif;
+}
+
+@layer base {
+    :root {
+      --login-btn: 24 119 242;
+    
+    }
+  }

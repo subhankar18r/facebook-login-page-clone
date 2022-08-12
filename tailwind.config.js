@@ -6,7 +6,13 @@ module.exports = {
       md: "360px",
       lg: "1000px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        // Using modern `rgb`
+        loginBtn: "rgb(var(--login-btn)/10)",
+        createBtn: "#42b72a",
+      },
+    },
   },
   plugins: [],
 };
