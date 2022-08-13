@@ -12,6 +12,9 @@ module.exports = {
         loginBtn: "rgb(var(--login-btn)/10)",
         createBtn: "#42b72a",
       },
+      fontFamily: {
+        arial: ["Arial"],
+      },
     },
   },
   plugins: [],
